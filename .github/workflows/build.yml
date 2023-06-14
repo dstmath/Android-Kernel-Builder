@@ -104,7 +104,7 @@ jobs:
           ARCH=$(echo $params | jq -r ".ARCH")
           CC=$(echo $params | jq -r ".CC")
 
-          args="-j${{ env.THREAD }}"
+          args=""
           if [ -n "${{ env.OUT_DIR }}" ]; then
             mkdir -p ${{ env.OUT_DIR }} && args="$args O=${{ env.OUT_DIR }}"
           fi
