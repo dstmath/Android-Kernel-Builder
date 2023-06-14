@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "DogDay-KernelSU-Proton-release",
       "repo": "https://github.com/OnlyTomInSecond/android_kernel_xiaomi_sdm845",
-      "branch": "lineageos-20-no-kprobe",
+      "branch": "lineageos-20-kprobe",
       "device": "dipper",
       "defconfig": "dipper_defconfig"
     },
